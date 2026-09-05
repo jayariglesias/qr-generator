@@ -1,0 +1,38 @@
+{
+  "name": "qr-generator",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Open-source QR code generator with logos, shapes, gradients, and PNG/SVG export.",
+  "keywords": [
+    "qr",
+    "qr-code",
+    "qr-generator",
+    "svg",
+    "png",
+    "nextjs",
+    "react"
+  ],
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "next": "^16.3.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "uqr": "^0.1.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.1",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.4",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}

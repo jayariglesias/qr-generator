@@ -1,0 +1,56 @@
+:root {
+  --ink: #15171c;
+  --ink-soft: #5a616d;
+  --paper: #e4e6eb;
+  --paper-deep: #cfd3da;
+  --field: #f3f4f6;
+  --line: #b4bac4;
+  --line-strong: #8b93a0;
+  --signal: #c47a12;
+  --signal-soft: #f0e2c8;
+  --signal-ink: #2a1c08;
+  --danger: #9a3412;
+  --radius: 2px;
+  --ease: 160ms ease;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: clip;
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  color: var(--ink);
+  background: var(--paper);
+  font-family: var(--font-ui), 'IBM Plex Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
